@@ -2,7 +2,7 @@
 
 ## Downloads
 - [Oxford 102 flowers image dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
-- [cvpr2016_flowers.tar.gz](https://drive.google.com/file/d/0B0ywwgffWnLLcms2WWJQRFNSWXM/view?resourcekey=0-Av8zFbeDDvNcF1sSjDR32w)
+- From [cvpr2016_flowers.tar.gz](https://drive.google.com/file/d/0B0ywwgffWnLLcms2WWJQRFNSWXM/view?resourcekey=0-Av8zFbeDDvNcF1sSjDR32w) obtain text_c10
 - [flowers_icml.tar.gz](https://drive.google.com/file/d/0B0ywwgffWnLLMl9uOU91MV80cVU/view?resourcekey=0-vy4hVV-6Hvpw3AiYipoa3g)
 - Run convert_flowers_to_hd5_script.py to obtain the flowers.hdf5 file
 
