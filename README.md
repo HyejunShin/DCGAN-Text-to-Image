@@ -1,4 +1,5 @@
 # DCGAN-Text-to-Image
+The goal of this project is to generate 64x64 pixel flower images based on single sentence text descriptions. This project is based on the paper “Generative Adversarial Text to Image Synthesis” by Reed et al., which utilizes deep convolutional generative adversarial network (DCGAN) to translate single-sentence human written descriptions directly into image pixels.
 
 ## Downloads
 - [Oxford 102 flowers image dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
@@ -69,12 +70,23 @@ python runtime.py --inference --pre_trained_disc ./checkpoints/disc_190.pth --pr
 | 11. this flower has five light blue petals with a deep purple streak in the middle of the petal. | ![Image 11](./assets/flower11.jpg) |
 
 <p float="left">
-  <img src="./assets/fake_images_batch_8.png" width="400" />
-  <img src="./assets/real_images_batch_8.png" width="400" /> 
+  <img src="./assets/fake_images_batch_91.png" width="400" />
+  <img src="./assets/real_images_batch_91.png" width="400" /> 
 </p>
+epoch 0
 
+<p float="left">
+  <img src="./assets/fake_images_batch_998.png" width="400" />
+  <img src="./assets/real_images_batch_998.png" width="400" /> 
+</p>
+epoch 10
+
+<p float="left">
+  <img src="./assets/fake_images_batch_18399.png" width="400" />
+  <img src="./assets/real_images_batch_18399.png" width="400" /> 
+</p>
+epoch 199
 
 ## References
-1) [https://github.com/aelnouby/Text-to-Image-Synthesis](https://github.com/aelnouby/Text-to-Image-Synthesis)
-2) [https://arxiv.org/pdf/1605.05396.pdf](https://arxiv.org/pdf/1605.05396.pdf)
-3) 
+1) [https://arxiv.org/abs/1605.05396](https://arxiv.org/abs/1605.05396)
+2) [https://github.com/aelnouby/Text-to-Image-Synthesis](https://github.com/aelnouby/Text-to-Image-Synthesis)
