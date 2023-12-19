@@ -69,19 +69,19 @@ python runtime.py --inference --pre_trained_disc ./checkpoints/disc_190.pth --pr
 | 10. this pale-looking flower has large yellow petals and is wilting. | ![Image 10](./assets/flower10.jpg) |
 | 11. this flower has five light blue petals with a deep purple streak in the middle of the petal. | ![Image 11](./assets/flower11.jpg) |
 
-<h2>Epoch 0</h2>
+<h4>Epoch 0</h4>
 <p float="left">
   <img src="./assets/fake_images_batch_91.png" width="400" />
   <img src="./assets/real_images_batch_91.png" width="400" /> 
 </p>
 
-<h2>Epoch 10</h2>
+<h4>Epoch 10</h4>
 <p float="left">
   <img src="./assets/fake_images_batch_998.png" width="400" />
   <img src="./assets/real_images_batch_998.png" width="400" /> 
 </p>
 
-<h2>Epoch 199</h2>
+<h4>Epoch 199</h4>
 <p float="left">
   <img src="./assets/fake_images_batch_18399.png" width="400" />
   <img src="./assets/real_images_batch_18399.png" width="400" /> 
